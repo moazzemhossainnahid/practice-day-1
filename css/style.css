@@ -34,6 +34,30 @@ a.fa-youtube {
     color: red;
 }
 
+p.lead {
+    color: darkslategrey;
+    text-align: center;
+    font-size: 20px;
+}
+
+.dcm {
+    width: 700px;
+    margin: auto;
+}
+
+tr.dcm1 th {
+    padding: 10px 120px;
+    background: bottom;
+}
+
+.utshorgo {
+    width: 600px;
+    position: relative;
+    left: 25%;
+    margin: 50px;
+    border-radius: 20px;
+}
+
 div.animation {
     height: 350px;
     width: 600px;
