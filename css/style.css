@@ -1,0 +1,57 @@
+table {
+    border: 2px solid #333;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 2px solid #333;
+    padding: 10px 20px;
+    background-color: darkgrey;
+}
+
+.stHD {
+    color: red;
+    font-size: 50px;
+}
+
+#youtube .yTube {
+    display: flex;
+    justify-content: space-around;
+}
+
+a.fab {
+    font-size: 100px;
+    text-decoration: none;
+    padding: 50px;
+}
+
+a.fa-facebook {
+    color: midnightblue;
+}
+
+a.fa-youtube {
+    color: red;
+}
+
+div.animation {
+    height: 350px;
+    width: 600px;
+    border-radius: 15px;
+    background-color: darkseagreen;
+    animation-name: xyz;
+    animation-duration: 5s;
+    transform: translate(350px);
+    transition: transform 2s;
+}
+
+
+@keyframes xyz {
+    from {
+        background-color: firebrick;
+    }
+
+    to {
+        background-color: darkgreen;
+    }
+}
